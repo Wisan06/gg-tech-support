@@ -40,3 +40,93 @@ nav a{
 nav a:hover{
   color:#0363cf;
 }
+
+.hero{
+  min-height:100vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  padding:120px 10%;
+  background:
+    radial-gradient(circle at top left,#421977,transparent 30%),
+    radial-gradient(circle at bottom right,#0363cf,transparent 30%),
+    #0d0d12;
+}
+
+.hero-content{
+  max-width:900px;
+}
+
+.hero-tag{
+  display:inline-block;
+  padding:12px 22px;
+  border-radius:999px;
+  background:rgba(255,255,255,0.05);
+  border:1px solid rgba(255,255,255,0.08);
+  margin-bottom:30px;
+  font-size:0.95rem;
+  backdrop-filter:blur(10px);
+}
+
+.hero h1{
+  font-size:4.5rem;
+  line-height:1.1;
+  margin-bottom:30px;
+  font-weight:700;
+}
+
+.hero p{
+  font-size:1.2rem;
+  color:#d4d4d4;
+  max-width:700px;
+  margin:auto;
+  margin-bottom:40px;
+}
+
+.hero-buttons{
+  display:flex;
+  justify-content:center;
+  gap:20px;
+  flex-wrap:wrap;
+}
+
+.primary-btn,
+.secondary-btn{
+  padding:16px 30px;
+  border-radius:14px;
+  font-weight:600;
+  transition:0.3s;
+}
+
+.primary-btn{
+  background:#0363cf;
+  color:white;
+}
+
+.primary-btn:hover{
+  transform:translateY(-4px);
+}
+
+.secondary-btn{
+  border:1px solid rgba(255,255,255,0.15);
+  color:white;
+  background:rgba(255,255,255,0.03);
+}
+
+.secondary-btn:hover{
+  background:white;
+  color:black;
+}
+
+@media(max-width:768px){
+
+  .hero h1{
+    font-size:2.8rem;
+  }
+
+  .hero p{
+    font-size:1rem;
+  }
+
+}
