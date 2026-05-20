@@ -80,7 +80,11 @@ function Services() {
 
         {services.map((service, index) => (
 
-          <div className="service-card" key={index}>
+          <div className="service-card"
+          key={index}
+          data-aos="fade-up"
+          data-aos-delay={index * 100}
+          >
 
             <span className="service-icon">
               {service.icon}

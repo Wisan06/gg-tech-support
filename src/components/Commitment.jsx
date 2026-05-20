@@ -31,7 +31,11 @@ function Commitment() {
 
         {commitments.map((item, index) => (
 
-          <div className="commitment-card" key={index}>
+          <div className="commitment-card"
+          key={index}
+          data-aos="fade-up"
+          data-aos-delay={index * 120}
+          >
 
             <h3>
               {item.title}

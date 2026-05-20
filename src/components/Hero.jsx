@@ -2,7 +2,7 @@ function Hero() {
   return (
     <section className="hero">
 
-      <div className="hero-content">
+      <div className="hero-content" data-aos="fade-up">
 
         <span className="hero-tag">
           Rendimiento • Conectividad • Seguridad

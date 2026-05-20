@@ -39,7 +39,11 @@ function WhyUs() {
 
         {benefits.map((benefit, index) => (
 
-          <div className="why-card" key={index}>
+          <div className="why-card"
+          key={index}
+          data-aos="fade-up"
+          data-aos-delay={index * 120}
+          >
 
             <h3>
               {benefit.title}

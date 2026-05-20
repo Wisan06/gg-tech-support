@@ -4,7 +4,7 @@ function Contact() {
 
     <section className="contact" id="contact">
 
-      <div className="contact-left">
+      <div className="contact-left" data-aos="fade-right">
 
         <span>
           Contacto
@@ -39,7 +39,7 @@ function Contact() {
 
       </div>
 
-      <div className="contact-right">
+      <div className="contact-right" data-aos="fade-left">
 
         <form className="contact-form">
 
