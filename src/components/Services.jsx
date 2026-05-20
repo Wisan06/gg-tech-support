@@ -1,9 +1,18 @@
+import {
+  FaTools,
+  FaNetworkWired,
+  FaShieldAlt,
+  FaGamepad,
+  FaVideo,
+  FaBuilding
+} from 'react-icons/fa'
+
 function Services() {
 
   const services = [
     {
       title: "Soporte Técnico",
-      icon: "🛠️",
+      icon: <FaTools />,
       items: [
         "Optimización y mantenimiento",
         "Formateo de sistemas",
@@ -14,7 +23,7 @@ function Services() {
 
     {
       title: "Redes y Conectividad",
-      icon: "🌐",
+      icon: <FaNetworkWired />,
       items: [
         "Configuración WiFi",
         "Routers y switches",
@@ -25,7 +34,7 @@ function Services() {
 
     {
       title: "Ciberseguridad",
-      icon: "🔒",
+      icon: <FaShieldAlt />,
       items: [
         "Protección contra malware",
         "Antivirus",
@@ -36,7 +45,7 @@ function Services() {
 
     {
       title: "Optimización Gamer",
-      icon: "🎮",
+      icon: <FaGamepad />,
       items: [
         "Mejora de FPS",
         "Control de temperaturas",
@@ -47,7 +56,7 @@ function Services() {
 
     {
       title: "Videovigilancia",
-      icon: "📹",
+      icon: <FaVideo />,
       items: [
         "Instalación de cámaras",
         "Monitoreo remoto",
@@ -58,7 +67,7 @@ function Services() {
 
     {
       title: "Hogar y Oficina",
-      icon: "🏢",
+      icon: <FaBuilding />,
       items: [
         "Soporte integral",
         "Asesoría tecnológica",
