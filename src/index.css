@@ -411,3 +411,86 @@ nav a:hover{
   }
 
 }
+
+.footer{
+  background:#07070a;
+  color:white;
+  padding:70px 10% 30px;
+}
+
+.footer-content{
+  display:flex;
+  justify-content:space-between;
+  align-items:flex-start;
+  gap:40px;
+  margin-bottom:50px;
+  flex-wrap:wrap;
+}
+
+.footer-brand h3{
+  font-size:1.5rem;
+  margin-bottom:15px;
+}
+
+.footer-brand p{
+  color:#bdbdbd;
+  max-width:350px;
+  line-height:1.7;
+}
+
+.footer-links{
+  display:flex;
+  flex-direction:column;
+  gap:15px;
+}
+
+.footer-links a{
+  color:#d7d7d7;
+  transition:0.3s;
+}
+
+.footer-links a:hover{
+  color:#0363cf;
+}
+
+.footer-bottom{
+  border-top:1px solid rgba(255,255,255,0.08);
+  padding-top:25px;
+  text-align:center;
+}
+
+.footer-bottom p{
+  color:#8f8f8f;
+  font-size:0.95rem;
+}
+
+.whatsapp-button{
+  position:fixed;
+  bottom:30px;
+  right:30px;
+
+  width:65px;
+  height:65px;
+
+  border-radius:50%;
+
+  background:#25d366;
+
+  display:flex;
+  align-items:center;
+  justify-content:center;
+
+  font-size:2rem;
+
+  color:white;
+
+  box-shadow:0 10px 30px rgba(37,211,102,0.4);
+
+  z-index:999;
+
+  transition:0.3s;
+}
+
+.whatsapp-button:hover{
+  transform:scale(1.1);
+}

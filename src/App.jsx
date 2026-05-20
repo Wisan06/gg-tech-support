@@ -5,6 +5,8 @@ import WhyUs from './components/WhyUs'
 import About from './components/About'
 import Commitment from './components/Commitment'
 import Contact from './components/Contact'
+import Footer from './components/Footer'
+import WhatsAppButton from './components/WhatsAppButton'
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
       <About />
       <Commitment />
       <Contact />
+      <Footer />
+      <WhatsAppButton />
     </>
   )
 }
