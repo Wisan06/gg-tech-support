@@ -1,3 +1,4 @@
+import { FaWhatsapp } from "react-icons/fa"
 function WhatsAppButton() {
 
   return (

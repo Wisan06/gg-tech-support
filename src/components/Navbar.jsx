@@ -1,9 +1,14 @@
+import logo from '../assets/logo.png'
 function Navbar() {
   return (
     <header className="navbar">
 
       <div className="logo">
-        GG Tech Support
+        <img 
+        src={logo}
+        alt="GG Tech Support"
+        />
+        
       </div>
 
       <nav>
