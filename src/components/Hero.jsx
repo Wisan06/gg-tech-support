@@ -33,6 +33,7 @@ function Hero() {
 
       </div>
 
+<div className="hero-bottom-fade"></div>
     </section>
   )
 }
