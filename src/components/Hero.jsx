@@ -23,7 +23,7 @@ function Hero() {
           </a>
 
           <a
-            href="https://wa.me/"
+            href="https://wa.me/573054116100"
             className="secondary-btn"
           >
             Contactar ahora
